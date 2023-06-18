@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet"  href="login.css">
+</head>
+<body>
+    <script src="login.js"></script>
+    <div class="border1"> 
+        <h1>MADHAN HOTELS</h1>
+        <div>
+       <img  class="border2" src="./golden-elegant-corporative-logo-template_23-2148214854-removebg-preview (1).png">
+       </div>
+       </div>
+    <div class="border">
+        <div class="text">
+            <form action="index (2).html">
+         <h3>Username</h3>
+            <input type="e-mail" placeholder="enter email" required>
+         <h3>password</h3>
+            <input type="password" placeholder="enter password" id="password" onclick="pass()"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            </br>
+           </br>
+            <input type="submit">
+         </form>
+         </div>
+    </div>
+    <div id="message">
+        <h3>Paswword must contain the following</h3>
+        <p id="small" class="invalid">A lowercase letter</p>
+        <p id="capital" class="invalid">A capital (uppercase) letter</p>
+        <p id="number" class="invalid">A number</p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+      </div>
+    </div>
+</body>
+</html>

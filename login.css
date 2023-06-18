@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    background-image: url(./vegetables-set-left-black-slate.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.border{
+    height: 400px;
+    width:400px;
+    background-color:maroon;
+    border-radius: 20px 20px 20px 20px;
+    margin-left:3%;
+    margin-top: 1%;
+    border: 2px solid cornsilk;
+
+}
+.text{
+
+    margin-left: 130px;
+    padding-top: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: cornsilk;
+}
+.login{
+    height:20px;
+    width:50px;
+    background-color: greenyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:auto;
+    margin-left: 40%;
+}
+.border1{
+    height:100px;
+    width:600px;
+    background-color: maroon;
+    margin-top: -10px;
+    margin-bottom: 80px;
+}
+.border2{
+    height: 90px;
+    width:200px;
+    margin-top: -12%;
+    color:black;
+    margin-left: -4%;
+}
+.border1 h1{
+    margin: auto;
+    margin-left: 27%;
+    padding-top: 30px;
+    font-size: 40px;
+    color: white;
+}
+#message{
+    height:200px;
+    width:300px;
+    border-style: dotted;
+    background-color: bisque;
+    margin-left: 5%;
+    margin-top: 2%;
+}
